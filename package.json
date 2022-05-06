@@ -4,7 +4,7 @@
   "description": "back-end demo app for Apollo's lift-off III course",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
+    "start": "npm i && nodemon src/index.js",
     "build": "tsc",
     "test": "jest"
   },
