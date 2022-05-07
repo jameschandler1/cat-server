@@ -4,7 +4,7 @@ class TrackAPI extends RESTDataSource {
   constructor() {
     super();
     // the Catstronauts catalog is hosted on this server
-    this.baseURL = "https://cat-serverr.herokuapp.com/";
+    this.baseURL = "https://odyssey-lift-off-rest-api.herokuapp.com/";
   }
 
   getTracksForHome() {

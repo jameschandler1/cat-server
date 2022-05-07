@@ -14,6 +14,7 @@ const server = new ApolloServer({
   },
   cors: {
     origin: [
+      'http://localhost:3000',
       "https://https://cat-serverr.herokuapp.com/",
       "https://studio.apollographql.com",
     ],
