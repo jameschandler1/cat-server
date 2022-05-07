@@ -12,6 +12,12 @@ const server = new ApolloServer({
       trackAPI: new TrackAPI(),
     };
   },
+  cors: {
+    origin: [
+      "https://https://cat-serverr.herokuapp.com/",
+      "https://studio.apollographql.com",
+    ],
+  },
 });
 
 server.listen({ port: process.env.PORT || 4000 }).then(({ url }) => {
