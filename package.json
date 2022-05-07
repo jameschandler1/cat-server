@@ -5,7 +5,7 @@
   "description": "back-end demo app for Apollo's lift-off III course",
   "main": "src/index.js",
   "scripts": {
-    "start": "npm i && npm run build && nodemon src/index.js" 
+    "start": "npm i && node src/index.js"
   },
   "dependencies": {
     "apollo-datasource-rest": "^0.11.0",
