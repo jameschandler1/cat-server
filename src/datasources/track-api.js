@@ -5,6 +5,12 @@ class TrackAPI extends RESTDataSource {
     super();
     // the Catstronauts catalog is hosted on this server
     this.baseURL = "https://cat-serverr.herokuapp.com/";
+    this.headers = {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Content-Type",
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+      "Content-Type": "application/json",
+    }
   }
 
   getTracksForHome() {
