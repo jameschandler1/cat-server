@@ -14,7 +14,7 @@ const server = new ApolloServer({
   },
   cors: {
     origin: [
-      'https://catspaceee.netlify.app/',
+      "https://catspaceee.netlify.app",
       "https://https://cat-serverr.herokuapp.com/",
       "https://studio.apollographql.com",
     ],
